@@ -1,0 +1,41 @@
+Lembrando que o aplicativo base não tem qualquer dependência.
+
+Explicar com detalhes o sistema de rotas:
+- .htaccess (os dois)
+- public/index.php
+- application/bootstrap.php
+- application/Core/Router.php (aqui inserir paradas e comentar...)
+
+As 3 dependências/pacotes instalados são úteis, mas opcionais, podendo ser removidos.
+
+- Paginação (Dividir para view, controller e model)
+- Busca (Dividir para view, controller e model)
+- Usar o mais que puder de metdados dos SGBDs para tornar o aplicativo menos trabalhoso de codificar, puxando as informações diretamente do banco de dados usando os referidos metadados
+
+O código dos actions index, add e edit estão se repetindo, então é importante refatorar, criando uma estrutura de classes com herança ou interface.
+Como também acontece com o errorcontroller.
+
+Criar novas classes para usar:
+
+Front
+- form com bons recursos: input, select, radio, check, etc
+- table
+- links
+- images
+- modal
+- popups com Bootstrap
+- tooltip com BS
+- datagrid
+
+Arquivos de template:
+- header
+- footer
+
+
+Enriquecer aos poucos, por etapas, o mini-framework:
+- Usar os recursos do HTML5 no front
+- Usar boas validações no back com Filtros...
+- Paginação (separando em view - index, controller e model)
+- Busca (separando em view - index, controller e model)
+- Criar ferramenta de criação de código para o mini-framework, tipo o bake. Estudar o código gerado pelo bake/Cake para implementar no mini-fw.
+

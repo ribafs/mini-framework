@@ -1,0 +1,31 @@
+{
+    "name": "ribafs/mini-framework",
+    "description": "MINI FRAMEWORK - an extremely simple MVC PHP application",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panique",
+            "email": "panique@firemail.de"
+        },
+        {
+            "name": "John Dias",
+            "email": "joaodias@noctus.org"
+        },
+        {
+            "name": "Ribamar FS",
+            "email": "ribafs@gmail.com"
+        }
+    ],
+	"minimum-stability": "stable",
+    "require": {
+
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Mini\\" : "src/"
+        }
+    }
+}

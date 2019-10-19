@@ -1,0 +1,28 @@
+{
+    "name": "ribafs/app-mvc",
+    "description": "APP-MVC - an extremely simple naked MVC PHP application",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panique",
+            "email": "panique@firemail.de"
+        },
+        {
+            "name": "John Dias",
+            "email": "joaodias@noctus.org"
+        },
+        {
+            "name": "Ribamar FS",
+            "email": "ribafs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Mvc\\" : "application/"
+        }
+    }
+}

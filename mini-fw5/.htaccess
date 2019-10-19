@@ -1,0 +1,3 @@
+# This file redirect all requests ro public/ directory and enable mod_rewrite
+RewriteEngine on
+RewriteRule ^(.*) public/$1 [L]

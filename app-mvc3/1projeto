@@ -1,0 +1,8 @@
+Esta versão trocou o CSS original pelo BootStrap 4
+
+Caso queira experimentar os dados existentes, então edite o arquivo do raiz
+phinx.yml
+
+E ajuste os dados do banco de dados no ambiente production ou noutro mas lembre de alterar os comandos abaixo:
+php vendor/robmorgan/phinx/bin/phinx migrate -e production
+php vendor/bin/phinx seed:run -e production
