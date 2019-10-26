@@ -30,17 +30,17 @@ Criação do Aplicativo
 	- [7.1 - Model.php](/docs/app-mvc4/7.1Model.php.md)
 	- [7.2 - CustomerModel.php](/docs/app-mvc4/7.2Customer.php.md)
 - 8 - Controllers
-	- 8.1 - ErrorController.php](/docs/app-mvc4/7.2Customer.php.md)
-	- 8.2 - HomeController.php](/docs/app-mvc4/7.2Customer.php.md)
-	- 8.3 - CustomerController.php](/docs/app-mvc4/7.2Customer.php.md)
+	- [8.1 - ErrorController.php](/docs/app-mvc4/8.1ErrorController.php.md)
+	- [8.2 - HomeController.php](/docs/app-mvc4/8.2HomeController.php.md)
+	- [8.3 - CustomerController.php](/docs/app-mvc4/8.3CustomersController.php.md)
 - 9 - Views
-	- 9.1 - Error](/docs/app-mvc4/7.2Customer.php.md)
-	- 9.2 - Home](/docs/app-mvc4/7.2Customer.php.md)
+	- [9.1 - Error](/docs/app-mvc4/9.1error-index.php.md)
+	- [9.2 - Home](/docs/app-mvc4/9.2home-index.php.md)
 	- 9.3 - _templates
-		- 9.3.1 - header.php](/docs/app-mvc4/7.2Customer.php.md)
-		- 9.3.2 - footer.php](/docs/app-mvc4/7.2Customer.php.md)
+		- [9.3.1 - header.php](/docs/app-mvc4/9.3.1header.php.md)
+		- [9.3.2 - footer.php](/docs/app-mvc4/9.3.2footer.php.md)
 	- 9.4 - Customers
-		- 9.4.1 - edit.php](/docs/app-mvc4/7.2Customer.php.md)
+		- [9.4.1 - edit.php](/docs/app-mvc4/9.4.1customers-edit.md)
 		- [9.4.2 - index.php](/docs/app-mvc4/9.4.2customers-index.md)
 - 10 - CSS
 	- [10.1 - public/css/custom.css](/docs/app-mvc4/10.1css.md)
