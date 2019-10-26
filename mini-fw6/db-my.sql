@@ -1,3 +1,12 @@
+DROP SCHEMA IF EXISTS `appmvc` ;
+
+CREATE SCHEMA IF NOT EXISTS `appmvc` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin ;
+USE `appmvc` ;
+
+DROP USER IF EXISTS 'appmvc'@'%';
+CREATE USER 'appmvc'@'%' IDENTIFIED BY '123456';
+GRANT DELETE,EXECUTE,INSERT,SELECT,UPDATE ON appmvc.* TO 'appmvc'@'%';
+
 CREATE TABLE `customers` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
