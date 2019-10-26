@@ -5,10 +5,10 @@
 - 1 - Introdução
 - 2 - Porque e para que criar um framework
 - 3 - Porque eu quero criar
-- 4 - Padrões de Projeto
-- 5 - Boas práticas e convenções
-- 6 - Roteamento
-- 7 - Tratamento de Erros no PHP
+- [4 - Padrões de Projeto](/docs/4-PadroesProjeto.md)
+- [5 - Boas práticas e convenções](/docs/5-BoasPraticas.md)
+- [6 - Roteamento](/docs/6-Rotas.md)
+- [7 - Tratamento de Erros no PHP](/docs/7-TratamentoErros.md)
 - 8 - Namespace
 - 9 - Referências - https://ribafs.github.io/references/#PHPOO
 
