@@ -60,8 +60,7 @@ Este tutorial se aplica ao exemplo app-mvc4. Os demais foram fases em que fui ad
 https://github.com/ribafs/framework-zero-samples
 
 
-## Rodando aplicação de exemplo
-Para rodar aplicação de exemplo mini-fw6 
+## Tutorial para rodar aplicação de exemplo mini-fw6 
 
 Requisitos:
 * MySQL 5.5+
