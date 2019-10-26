@@ -48,9 +48,9 @@ Criação do Aplicativo
 	- 11.1 - Finalizando
 	- 11.2 - phinx/migrations
 	- 11.3 - faker
-	- 11.4 - whoops/tratamento de erros
-- 12 - Namespaces
-- 13 - BootStrap 4
+	- [11.4 - whoops/tratamento de erros](/docs/app-mvc4/11.4Woops.md)
+- [12 - Namespaces](/docs/app-mvc4/12Namespaces.md)
+- [13 - BootStrap 4](/docs/app-mvc4/13BootStrap4.md)
 
 ## Repositório com 4 exemplos deste aplicativo, com variações.
 
