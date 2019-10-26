@@ -30,20 +30,20 @@ Criação do Aplicativo
 	- [7.1 - Model.php](/docs/app-mvc4/7.1Model.php.md)
 	- [7.2 - CustomerModel.php](/docs/app-mvc4/7.2Customer.php.md)
 - 8 - Controllers
-	- 8.1 - ErrorController.php
-	- 8.2 - HomeController.php
-	- 8.3 - CustomerController.php
+	- 8.1 - ErrorController.php](/docs/app-mvc4/7.2Customer.php.md)
+	- 8.2 - HomeController.php](/docs/app-mvc4/7.2Customer.php.md)
+	- 8.3 - CustomerController.php](/docs/app-mvc4/7.2Customer.php.md)
 - 9 - Views
-	- 9.1 - Error
-	- 9.2 - Home
+	- 9.1 - Error](/docs/app-mvc4/7.2Customer.php.md)
+	- 9.2 - Home](/docs/app-mvc4/7.2Customer.php.md)
 	- 9.3 - _templates
-		- 9.3.1 - header.php
-		- 9.3.2 - footer.php
+		- 9.3.1 - header.php](/docs/app-mvc4/7.2Customer.php.md)
+		- 9.3.2 - footer.php](/docs/app-mvc4/7.2Customer.php.md)
 	- 9.4 - Customers
-		- 9.4.1 - edit.php
-		- 9.4.2 - index.php
+		- 9.4.1 - edit.php](/docs/app-mvc4/7.2Customer.php.md)
+		- [9.4.2 - index.php](/docs/app-mvc4/9.4.2customers-index.md)
 - 10 - CSS
-	- 10.1 - public/css/custom.css
+	- [10.1 - public/css/custom.css](/docs/app-mvc4/10.1css.md)
 - 11 - Pacotes adicionados
 	- [11.1 - Finalizando](/docs/app-mvc4/11.1Finalizando.md)
 	- [11.2 - phinx/migrations](/docs/app-mvc4/11.2Migrations.md)
@@ -58,6 +58,23 @@ Caso tenha ficado alguma dúvida no código do aplicativo que você criou, entã
 Este tutorial se aplica ao exemplo app-mvc4. Os demais foram fases em que fui adicionando recursos.
 
 https://github.com/ribafs/framework-zero-samples
+
+
+## Rodando aplicação de exemplo
+Para rodar aplicação de exemplo mini-fw6 
+
+Requisitos:
+* MySQL 5.5+
+* PHP 7.0+
+* Composer 1.6.5+
+
+Excute na ordem
+* no terminal acessar a pasta mini-fw6 e executar  composer install
+* No MySql executar mini-fw6/db-my.sql (Pode ser PhpMyAdmin MySql Workbench)
+* Acessar http://localhost/mini-framework/mini-fw6/
+
+Se fez tudo certo irá aparecer
+![mni-fw6_tela.png](/docs/mini-fw6_tela.png)
 
 
 ## LICENSA
