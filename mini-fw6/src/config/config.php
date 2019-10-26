@@ -59,9 +59,9 @@ define('CONTROLLER_DEFAULT', 'Customers');
  */
 define('DB_TYPE', 'mysql'); // mysql or pgsql
 define('DB_HOST', '127.0.0.1');
-define('DB_NAME', 'mini-fw');
-define('DB_USER', 'root');
-define('DB_PASS', 'root');
+define('DB_NAME', 'appmvc');
+define('DB_USER', 'appmvc');
+define('DB_PASS', '123456');
 define('DB_PORT', '3306');// 3306 or 5432
 define('DB_CHARSET', 'utf8mb4');
 
