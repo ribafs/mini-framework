@@ -1,6 +1,6 @@
 # Lembrando que o aplicativo base não tem qualquer dependência.
 
-## Explicar com detalhes o sistema de rotas:
+## Explicar com detalhes o sistema de rotas: 
 - .htaccess (os dois)
 - public/index.php
 - application/bootstrap.php
