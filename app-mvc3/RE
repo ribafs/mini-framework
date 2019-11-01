@@ -1,0 +1,8 @@
+# app-mvc3
+
+## Instalação do app-mvc2
+
+Acesse a pasta e execute
+```bash
+composer update
+```
