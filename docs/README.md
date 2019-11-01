@@ -57,9 +57,6 @@ Criação do Aplicativo
 Caso tenha ficado alguma dúvida no código do aplicativo que você criou, então baixe os exemplos abaixo para verificar.
 Este tutorial se aplica ao exemplo app-mvc4. Os demais foram fases em que fui adicionando recursos.
 
-https://github.com/ribafs/framework-zero-samples
-
-
 ## Tutorial para rodar aplicação de exemplo mini-fw6 
 
 Requisitos:
