@@ -1,24 +1,30 @@
-Esta versão tem como diferença da original a
-instalação de duas dependências:
+# app-mvc2
 
-robmorgan/phinx - migrations
-fzaninotto/faker - geração de dados falsos
+## Esta versão tem como diferença da original a instalação de duas dependências:
 
-Estas dependências são opcionais, inteiramente desacopladas, usadas somente para geração de migrations/seeds
+- robmorgan/phinx - migrations
+- fzaninotto/faker - geração de dados falsos
+
+## Estas dependências são opcionais, inteiramente desacopladas, usadas somente para geração de migrations/seeds
+
 Caso deseje pode removê-las
 
-
-Instalação do app-mvc2
+## Instalação do app-mvc2
 
 Acesse a pasta e execute
+```bash
 composer update
+```
 
-Instalar migrations
+## Instalar migrations
 
 Atualize os dados do banco no arquivo do raiz
+
 phinx.yml
 
 Execute:
+```bash
 php vendor/robmorgan/phinx/bin/phinx migrate -e production
 php vendor/bin/phinx seed:run -e production
+```
 
