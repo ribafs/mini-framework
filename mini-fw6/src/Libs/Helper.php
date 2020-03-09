@@ -34,7 +34,7 @@ class Helper
 
             // bring parameter into human-readable format
             if (is_string($value)) {
-                $values[$key] = ''' . $value . '''; // Before "'"
+                $values[$key] = "' . $value . '"; // Before "'"
             } elseif (is_array($value)) {
                 $values[$key] = implode(',', $value);
             } elseif (is_null($value)) {
